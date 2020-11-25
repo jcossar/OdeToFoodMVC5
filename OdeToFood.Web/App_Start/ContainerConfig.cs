@@ -24,7 +24,7 @@ namespace OdeToFood.Web
 
             var container = builder.Build();
             DependencyResolver.SetResolver(new AutofacDependencyResolver(container));
-            httpConfiguration.DependencyResolver = new AutofacWebApiDependencyResolver(container)
+            httpConfiguration.DependencyResolver = new AutofacWebApiDependencyResolver(container);
 
         }
     }
