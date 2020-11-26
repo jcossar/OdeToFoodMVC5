@@ -51,5 +51,14 @@ namespace OdeToFood.Data.Services
 
             //given the restaurant r, order by the restaurant name
         }
+
+        public void Delete(int id)
+        {
+            var restaurant = Get(id);
+            if(restaurant != null)
+            {
+                restaurants.Remove(restaurant);
+            }
+        }
     }
 }

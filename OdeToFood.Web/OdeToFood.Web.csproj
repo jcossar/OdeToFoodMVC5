@@ -220,6 +220,7 @@
     <Content Include="Views\Restaurants3\NotFound.cshtml" />
     <Content Include="Views\Restaurants3\Create.cshtml" />
     <Content Include="Views\Restaurants3\Edit.cshtml" />
+    <Content Include="Views\Restaurants3\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
