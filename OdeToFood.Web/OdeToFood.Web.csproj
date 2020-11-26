@@ -212,6 +212,8 @@
     <Content Include="Views\Restaurants3\Index.cshtml" />
     <Content Include="Views\Restaurants3\Details.cshtml" />
     <Content Include="Views\Restaurants3\NotFound.cshtml" />
+    <Content Include="Views\Restaurants3\Create.cshtml" />
+    <Content Include="Views\Restaurants3\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
