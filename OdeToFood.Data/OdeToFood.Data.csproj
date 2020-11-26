@@ -55,6 +55,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\InMemoryRestaurantData.cs" />
     <Compile Include="Services\IRestaurantData.cs" />
+    <Compile Include="Services\OdetoFoodDbContext2.cs" />
+    <Compile Include="Services\SqlRestaurantData2.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
